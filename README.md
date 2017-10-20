@@ -3,7 +3,7 @@
 # Joint Object
 
 ## About
-Objecto Complexo, utilizando Joints e Scripts.
+Objeto Complexo, utilizando Joints e Scripts.
 
 ## Support
 ### Unity
