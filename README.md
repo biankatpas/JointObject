@@ -1,10 +1,9 @@
 [![GitHub version](https://badge.fury.io/gh/popenke%2Funity-seed.svg)](https://badge.fury.io/gh/popenke%2Funity-seed)
 
 # Joint Object
-Complex Object with FixedJoint, SpringJoint and HingeJoint
 
 ## About
-Projeto da disciplina de Computação Gráfica
+Objecto Complexo, utilizando Joints e Scripts.
 
 ## Support
 ### Unity
