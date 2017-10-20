@@ -9,6 +9,7 @@ public class move : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		moveSpeed = 5f;
+		//move
 	}
 	
 	// Update is called once per frame
