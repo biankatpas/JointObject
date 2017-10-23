@@ -36,6 +36,8 @@ public class joint : MonoBehaviour {
 	public GameObject antebraco3;
 	public GameObject antebraco4;
 
+
+
 	private Joint fixa;
 	private Joint dobradica;
 	private Joint mola;
@@ -74,7 +76,6 @@ public class joint : MonoBehaviour {
 		antebraco2 = GameObject.Find ("antebraco2");
 		antebraco3 = GameObject.Find ("antebraco3");
 		antebraco4 = GameObject.Find ("antebraco4");
-
 		// Joelho pra baixo esquerdo
 		fixa = feet1.AddComponent<FixedJoint>();
 		fixa.connectedBody = canela1.GetComponent<Rigidbody>();
@@ -160,11 +161,16 @@ public class joint : MonoBehaviour {
 		fixa.connectedBody = corpinho.GetComponent<Rigidbody> ();
 
 
+
+
+
+
 		//mola = corpinho.AddComponent<SpringJoint>();
 		//mola.connectedBody = canela1.GetComponent<Rigidbody>();
 
 	}
-	
+
+
 	// Update is called once per frame
 	void Update ()
 	{
